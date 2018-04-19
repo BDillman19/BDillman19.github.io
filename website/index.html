@@ -4,24 +4,52 @@
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
         <title>Donut Delights</title>
-        <link rel="stylesheet" href=""
-        <!-- <link rel="stylesheet" href="css/home.css"> -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/home.css"> 
     </head>
     <header>
-        <a href="#menu" class="navItem">Menu</a>
-        <a href="#aboutUs" class="navItem">About Us</a>
-        <a href="#location" class="navItem">Location</a>
+        <nav>
+            <a href="menu.html" class="navItem">Menu</a>
+            <a href="#aboutUs" class="navItem">About Us</a>
+            <a href="contact.html" class="navItem">Contact</a>
+            <a href="#location" class="navItem">Location</a>
+        </nav>
         <figure>
-            <img id="logo" src="img/logo.jpg" alt="Donut Delights Logo">
+            <img id="logo" src="img/logo.png" alt="Donut Delights Logo" height="80px">
+            <figcaption>&copy; Donut Delights</figcaption>
         </figure>
-        <p>Come Visit Us Today!</p>
-        <img id="arrow" src="img/arrow.jpg" alt="arrow">
+        <p id="liner">The finest in breakfast since 1971.</p>
+        
     </header>
     <body>
         <!-- Carousel of pictures for home page -->
+        <section class="slideshow-container">
+            <section class="mySlides fade">
+                <img src="img/bakery.jpg" alt="bakery" width="90%">
+            </section>
+            <section class="mySlides fade">
+                <img src="img/coffee_and_chokolate%20(2).JPG" alt="coffee and chocolate" width="90%">   
+            </section>
+            <section class="mySlides fade">
+                <img src="img/donutsInCase2.jpg" alt="donuts in case" width="90%">
+            </section>
+            <section class="mySlides fade">
+                <img src="img/_DSC1661.JPG" alt="coffee beans" width="90%">
+            </section>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            <section style="text-align: center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </section>
+        </section>
+        
     </body>
     <footer>
-        &copy;
-        <p id="updatedTime">March 24, 2018</p>
+    
     </footer>
 </html>
