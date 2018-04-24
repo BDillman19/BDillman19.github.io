@@ -1,0 +1,31 @@
+body{
+    width: 80%;
+    border: ridge 5px darkgrey;
+    background-color: dimgrey;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+header{
+    background-color: orange;
+}
+.navItem{
+    text-decoration: none;
+    color: black;
+    float: right;
+    padding-top: 10px;
+    margin-left:2em;
+    margin-right: 2em;
+    font-size: 2em;
+}
+#liner{
+    font-size: 1.3em;
+    text-align: center;
+}
+#logo{
+    padding-top: 10px;
+}
+#current{
+    border: ridge 3px black;
+    padding: 3px;
+    margin: 7px;
+}
