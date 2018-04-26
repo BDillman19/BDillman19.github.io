@@ -1,4 +1,5 @@
 body{
+    clear: both;
     width: 80%;
     border: ridge 5px darkgrey;
     background-color: dimgrey;

@@ -1,9 +1,10 @@
-.left{
-    width: 40%;  
+#left{
+    width: 30%;
+    float: left;
 }
-.right{
-    float: ;
-    width: 40%;
+#right{
+    float: right;
+    width: 30%;
 }
 #fire{
     display: none;
@@ -11,4 +12,8 @@
 #picR{
     clear: both;
     
+}
+body{
+    clear: both;
+    overflow: auto;
 }
