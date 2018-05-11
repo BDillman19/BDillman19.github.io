@@ -1,10 +1,12 @@
 #left{
-    width: 30%;
+    padding-left: 10%;
+    width: 35%;
     float: left;
 }
 #right{
+    padding: 3% 10%;
     float: right;
-    width: 30%;
+    width: 35%;
 }
 #fire{
     display: none;
@@ -14,6 +16,5 @@
     
 }
 body{
-    clear: both;
-    overflow: auto;
+    height: 700px;
 }

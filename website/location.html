@@ -4,13 +4,15 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
         <title>Location</title>
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/location.css">
     </head>
     <header>
         <nav>
-            <a href="menu.html" class="navItem">Menu</a>
-            <a href="about.html" class="navItem">About Us</a>
-            <a href="contact.html" class="navItem">Contact</a>
             <a href="location.html" class="navItem" id="current">Location</a>
+            <a href="contact.html" class="navItem">Contact</a>
+            <a href="about.html" class="navItem" >About Us</a>
+            <a href="menu.html" class="navItem" >Menu</a>
+            <a href="index.html" class="navItem">Home</a>
         </nav>
         <figure>
             <img id="logo" src="img/logo.png" alt="Donut Delights Logo" height="80px">
@@ -20,6 +22,34 @@
         
     </header>
     <body>
-        <h3>Our address is 2112 Main Street Urbana, Illinois 61801</h3>
+        <div class="container">
+        <div class="row">
+            <div class="column">
+                <h3>Our address is 2112 Main Street Urbana, Illinois 61801</h3>
+             
+       
+        <div id="map"></div>
+            </div>  
+            <div class="column right">
+                <iframe width="100%" height="400"
+                    src="https://www.youtube.com/watch?v=1QIWZ9uoqCY">
+                </iframe>
+            </div>
+             </div>
+    <script>
+      function initMap() {
+        var options = {
+            zoom:8,
+            center:{lat: 40.113286, lon: -88.179929}
+        }
+        
+        var map = new google.maps.Map(document.getElementById('map'), options);
+      }
+
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAOREdm1WrO7m5ylYI-h519d6ZWJo5C2I&callback=initMap"
+        ></script>
+
+        </div>    
     </body>
 </html>

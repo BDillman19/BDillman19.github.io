@@ -1,0 +1,17 @@
+
+.column{
+    padding-left: 6.67%;
+    width: 40%;
+    float: left;
+}
+#map{
+    border: ridge 3px darkgrey;
+    height: 400px;
+    width: 100%;
+}
+.right{
+    padding-top: 5%;
+}
+body{
+    height: 700px;
+}
